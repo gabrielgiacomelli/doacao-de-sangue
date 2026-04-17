@@ -20,7 +20,8 @@ document.getElementById("FormSangue").addEventListener("submit", function (e) {
     if (peso < 50) return alert("Seu peso tem que ser maior de 50Kg");
     if (sangue === "") return alert("Escolha um tipo de sangue");
     if (!/^\d+$/.test(telefone)) return alert("O telefone deve conter apenas números (sem espaços ou traços).");
-    if (cidade === "" && estado === "") return alert("Adicione informações em todos os campos");
+    if (cidade === "")  return alert("Informe sua cidade");
+    if (estado === "") return alert("informe seu estado");
     
     document.getElementById("resultado").innerHTML = "Formulário feito com sucesso!";
 
