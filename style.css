@@ -1,0 +1,21 @@
+header{
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    background-image: url(imagens/background\ image.jpg);
+}
+form{
+    background-color: rgb(255, 135, 135);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+}
+.div{
+    justify-self: center;
+}
